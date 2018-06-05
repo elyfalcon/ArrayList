@@ -8,8 +8,8 @@
 int employee_compare(void* pEmployeeA,void* pEmployeeB)
 {
     int flat=-1;
-  //  RemoveSpaces(pEmployeeA->lastName);
-  //  RemoveSpaces(pEmployeeB->lastName);
+    RemoveSpaces(pEmployeeA->lastName);
+    RemoveSpaces(pEmployeeB->lastName);
     strlwr(pEmployeeA->lastName);
     strlwr(pEmployeeB->lastName);
     printf("pEmployeeA:%s",pEmployeeA->lastName);
@@ -22,8 +22,11 @@ int employee_compare(void* pEmployeeA,void* pEmployeeB)
     }
     if(strcmp(pEmployeeA->lastName,pEmployeeB->lastName)>0)
         flag=1;
+    else
+        
 
-    return flag;
+
+    return 0;
 }
 
 

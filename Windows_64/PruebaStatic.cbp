@@ -46,6 +46,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="parser.h" />
+		<Unit filename="tools.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tools.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
