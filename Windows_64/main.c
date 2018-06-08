@@ -17,7 +17,8 @@
 int main()
 {
 int i;
-ArrayList* listaEmpleados;
+FILE* pArch;
+ArrayList* listaEmpleados=al_newArrayList();
 
 
 Employee* miEmpleado;
@@ -26,6 +27,7 @@ Employee* aux;
 int tam=1;
 //hacer new
 
+/*
 miEmpleado=(Employee*)malloc(sizeof(Employee));
 
 miEmpleado->id=7;
@@ -38,18 +40,23 @@ miEmpleado2->id=8;
 strcpy(miEmpleado2->name,"Ariel");
 miEmpleado2->isEmpty=1;
 strcpy(miEmpleado2->lastName,"Fernandez");
+*/
+parserEmployee(pArch,listaEmpleados);
 
+for(i=0;i<listaEmpleados->size;i++){
 
-listaEmpleados=al_newArrayList(); //tengo instanciado en memoria un array list
-al_add(listaEmpleados,miEmpleado);
-al_add(listaEmpleados,miEmpleado2);
-printf("Elementos: %d\n", al_len(listaEmpleados));
+    employee_print((Employee*)listaEmpleados->pElements[i]);
+}
+/*listaEmpleados=al_newArrayList(); //tengo instanciado en memoria un array list
+/*al_add(listaEmpleados,miEmpleado);
+al_add(listaEmpleados,miEmpleado2);*/
+/*printf("Elementos: %d\n", al_len(listaEmpleados));
 
 for(i=0;i<al_len(listaEmpleados);i++)
 {
 aux=(Employee*)al_get(listaEmpleados,i); //hacer un for
 printf("%d--%s\n",aux->id,aux->name);
-}
+}*/
 
     return 0;
 }

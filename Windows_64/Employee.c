@@ -2,27 +2,15 @@
 #include <stdlib.h>
 #include "ArrayList.h"
 #include "Employee.h"
-#include "tools.h"
 
 
 int employee_compare(void* pEmployeeA,void* pEmployeeB)
 {
-    int flat=-1;
-  //  RemoveSpaces(pEmployeeA->lastName);
-  //  RemoveSpaces(pEmployeeB->lastName);
-    strlwr(pEmployeeA->lastName);
-    strlwr(pEmployeeB->lastName);
-    printf("pEmployeeA:%s",pEmployeeA->lastName);
-    printf("pEmployeeA:%s",pEmployeeB->lastName);
-    if(strcmp(pEmployeeA->lastName,pEmployeeB->lastName)==0)
-    {
-        printf("son iguales");
-        flag=0;
-        break;
-    }
-    if(strcmp(pEmployeeA->lastName,pEmployeeB->lastName)>0)
-        flag=1;
-
+    int flag;
+    Employee* empa;
+    Employee* empb;
+    if(strcmp(empa->lastName,empb->lastName)==0)
+    flag=0;
     return flag;
 }
 
@@ -31,6 +19,15 @@ void employee_print(Employee* this)
 {
   printf("%d--%s--%s\n",this->id,this->name,this->lastName);
 }
+
+
+
+
+ //   return 0;
+//}
+
+
+
 
 
 

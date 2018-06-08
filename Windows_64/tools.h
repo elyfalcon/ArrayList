@@ -9,3 +9,4 @@ int ComparaFrases(char* frase1,char* frase2);
 
 
 #endif // TOOLS_INCLUDED
+

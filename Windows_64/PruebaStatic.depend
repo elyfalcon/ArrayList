@@ -46,7 +46,7 @@
 	"ArrayList.h"
 	"Employee.h"
 
-1528120648 source:c:\test\elifalcon\clase 19\practica_pair_v1.2\windows_64\employee.c
+1528207093 source:c:\test\elifalcon\clase 19\practica_pair_v1.2\windows_64\employee.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
@@ -56,35 +56,19 @@
 
 1477571236 c:\test\elifalcon\clase 19\practica_pair_v1.2\windows_64\employee.h
 
-1464384470 source:c:\test\elifalcon\clase 19\practica_pair_v1.2\windows_64\parser.c
+1528210744 source:c:\test\elifalcon\clase 19\practica_pair_v1.2\windows_64\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
 	"Employee.h"
 
-1528117388 source:c:\test\elifalcon\clase 19\practica_pair_v1.2\windows_64\main.c
+1528207303 source:c:\test\elifalcon\clase 19\practica_pair_v1.2\windows_64\main.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
 	"Employee.h"
 
-1528124200 source:c:\eli\utn\practica parcial2\arraylist\windows_64\main.c
-	<stdio.h>
-	<stdlib.h>
-	"ArrayList.h"
-	"Employee.h"
-
-1528124200 c:\eli\utn\practica parcial2\arraylist\windows_64\arraylist.h
-
-1477571236 c:\eli\utn\practica parcial2\arraylist\windows_64\employee.h
-
-1464384470 source:c:\eli\utn\practica parcial2\arraylist\windows_64\parser.c
-	<stdio.h>
-	<stdlib.h>
-	"ArrayList.h"
-	"Employee.h"
-
-1528163394 source:c:\eli\utn\practica parcial2\arraylist\windows_64\tools.c
+1528200184 source:c:\test\elifalcon\clase 19\practica_pair_v1.2\windows_64\tools.c
 	<stdio.h>
 	<stdlib.h>
 

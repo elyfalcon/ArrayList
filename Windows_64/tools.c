@@ -49,3 +49,4 @@ int ComparaFrases(char* frase1,char* frase2)
     else
         printf("Son distintas");
 }
+
